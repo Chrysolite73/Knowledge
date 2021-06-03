@@ -1,0 +1,31 @@
+1. создаём на git hub новый репозиторий.
+2. создаём папку на компьютере с тем же именем.
+
+git init
+
+создать и добавить файл
+
+git add .
+
+git commit -a -m "какой-нибудь комментарий"
+
+git remote add origin адрес_на_гитхабе
+
+git push --set-upstream origin master  /*установить восходящий поток origin - репозиторий, master ветка*/
+
+
+1 создаём папку и заходим в ФАРе в папку
+2 создаём репозиторий: git init
+3 создаём папку на github.com с тем же именем
+4 Создаем файлы в папке и добавляем эти файлы git add .
+5 git commit -a -m "комментарий"
+6 проверяем git status
+7 связываем свой репозиторий с гитхаб:
+git remote add origin https://github.com/L-graf/ПАПКА.git
+8 командой git push --set-upstream origin master https://github.com/L-graf/ПАПКА.git создаём ветку Мастер, которая будет связана с нашей веткой Мастер 
+
+
+Главная ветка main значит репозиторий создан на github
+Главная ветка master значит репозиторий создан на компе
+
+git remote remove origin удалить origin

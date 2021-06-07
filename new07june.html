@@ -1,1 +1,65 @@
-﻿Новая ветка 
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<title>Practics</title>
+		<style>
+		/*global reset*/
+html, body, body div, span, h1, h2, h3, h4, h5, h6, p, header, footer {
+margin: 0;
+padding: 0;
+border: none;
+outline: none;
+background: none;
+}
+html, body {
+height: 100%;
+}
+.wrapper {
+display: flex;
+flex-direction: column;
+min-height: 100%;
+}
+header {
+height: 100px;
+background: #ddd;
+flex: none;
+}
+footer {
+height: 100px;
+background: #ddd;
+flex: none;
+}
+.main {
+flex: 1 0 auto;
+background: yellow;
+}
+.gray {
+background: gray;
+heigh:200px;
+display: flex;
+
+}
+.white {
+background: white;
+height: 100px;
+display: flex;
+
+.blue {
+background: blue;
+height: 100px;
+display: flex;
+}
+		</style>
+	</head>
+	<body>
+		<div class="wrapper">
+		<header></header>
+			<div class="main">
+				<div class="gray"></div>
+				<div class="white"></div>
+			</div>
+			<div class="blue"></div>
+		<footer></footer>
+	</div>
+	</body>
+</html>
